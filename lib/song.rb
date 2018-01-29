@@ -20,7 +20,7 @@ class Song
   def self.artists()
     unique_artists = []
     @@artists.each do |a|
-     if !unique_artists.include(a)
+     if !unique_artists.include?(a)
        unique_artists << a
      end
    end
