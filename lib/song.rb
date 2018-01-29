@@ -9,10 +9,15 @@ class Song
     @artist = artist
     @@artists << artist
     @genre = genre
+    @@genres << genre
     @@count += 1
   end
 
   def artists
-    @@all_artists
+    @@artists
+  end
+
+  def count
+    @@count
   end
 end
