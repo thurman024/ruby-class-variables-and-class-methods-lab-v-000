@@ -15,7 +15,7 @@ class Song
 
   def artists
     unique_artists = []
-    @@artists.select {|a| !unique_artists.include(a) unique_artists << a}
+    @@artists.select {|a| !unique_artists.include(a), unique_artists << a}
     unique_artists
   end
 
