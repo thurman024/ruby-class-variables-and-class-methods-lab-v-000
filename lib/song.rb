@@ -13,6 +13,10 @@ class Song
     @@count += 1
   end
 
+  def count
+    @@count
+  end
+  
   def artists
     unique_artists = []
     @@artists.each do |a|
@@ -45,7 +49,4 @@ class Song
     genre_hash
   end
 
-  def count
-    @@count
-  end
 end
