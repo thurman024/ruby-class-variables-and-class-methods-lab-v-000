@@ -20,7 +20,7 @@ class Song
        unique_artists << a
      end
    end
-    unique_artists
+   unique_artists
   end
 
   def genres
