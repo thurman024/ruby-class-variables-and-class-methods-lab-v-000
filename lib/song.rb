@@ -43,6 +43,7 @@ class Song
       end
     end
     genre_hash
+  end
 
   def count
     @@count
