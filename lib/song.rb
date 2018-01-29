@@ -39,7 +39,7 @@ class Song
       if genre_hash.include?(genre)
         genre_hash[genre] += 1
       else
-        genre_hash[genre] =1
+        genre_hash[genre] = 1
     end
     genre_hash
 
