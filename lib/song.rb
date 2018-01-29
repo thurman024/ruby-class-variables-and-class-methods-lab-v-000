@@ -16,7 +16,7 @@ class Song
   def artists
     unique_artists = []
     @@artists.each do |a|
-     if !unique_artists.include(a) 
+     if !unique_artists.include(a)
        unique_artists << a
      end
    end
@@ -26,7 +26,7 @@ class Song
   def genres
     unique_genres = []
     @@genres.each do |g|
-     if !unique_genres.include(g) 
+     if !unique_genres.include(g)
        unique_genres << g
      end
    end
