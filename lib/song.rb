@@ -20,6 +20,7 @@ class Song
        unique_artists << a
      end
    end
+ end
    unique_artists
   end
 
